@@ -28,3 +28,12 @@ header{
 .img-body{
     background-color: #F1F1F1;
 }
+@media only screen and (max-width: 600px) {
+    .logo{
+        width: 220px;
+        height: 50px;
+    }
+    .hedersection1 h1{
+        font-size: 35px;
+    }
+  }
