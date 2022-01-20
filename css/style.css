@@ -1,0 +1,30 @@
+@import url('../webbox/css/main.css');
+:root{
+    --activecolor1:#FABE4C;
+    --activecolor2:#363958;
+}
+header{
+    background-color: #FFFBF0;
+}
+
+.hedersection1 span{
+    color: var(--activecolor1);
+}
+.hedersection1 > h1{
+    color: var(--activecolor2);
+    font-size: 65px;
+
+}
+.hedersection1 p{
+    color: #3E3E3E;
+    font-size: 20px;
+}
+.hedersection1> button{
+    display:inline-block;
+    width: 170px;
+    height: 60px;
+
+}
+.img-body{
+    background-color: #F1F1F1;
+}
